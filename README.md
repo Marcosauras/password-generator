@@ -1,4 +1,10 @@
 # 03 JavaScript: Password Generator
+
+![license](https://img.shields.io/github/license/westgards/password-generator)
+
+![open issue](https://img.shields.io/github/issues-raw/Marcosauras/password-generator)
+![closed issue](https://img.shields.io/github/issues-closed-raw/Marcosauras/password-generator)
+
 # Description
 This is a Random password generator, you can use this website to create a random password 
 to keep your accounts safe and keep unwanted people from being able to guess your password.
