@@ -11,7 +11,7 @@ A web browser downloaded on your device
 ## Usage
 When you load the page you will see a button that says generate password.
 
-![Screenshot-of-password-generator](./Assets/prompt-for-password-criteria.png)
+![Screenshot-of-password-generator](./Assets/Screenshot-of-password-generator.png)
 
 After clicking the button you will be given prompts on how you would like to modify said password.
 it will ask what size you would like your password to be,
@@ -20,7 +20,7 @@ upper case letters,
 numbers, 
 or special symbols (~, `, !, @, #, $, %, ^, &, *, &).
 
-![prompt-for-password-criteria](./assets/prompt-for-password-criteria.png)
+![prompt-for-password-criteria](./Assets/prompt-for-password-criteria.png)
 
 after all criteria questions have been answered it will print out your password into the display box for you to copy and use whever you would like.
 
