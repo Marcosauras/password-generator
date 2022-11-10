@@ -18,13 +18,14 @@ function generatePassword() {
   passwordLengthCriteria = Number(passwordLengthCriteria);
   if (isNaN(passwordLengthCriteria)) {
     alert("must be a number");
-    // generatePassword();
+    generatePassword();
   } else{
 
       console.log(passwordLengthCriteria)
 
       if (passwordLengthCriteria < 8 || passwordLengthCriteria > 128){
         alert("Password can only be between 8 to 128 characters long")
+        generatePassword();
         return
       } 
       let lowCaseInPassword = confirm("Would you like lower case letters in your password? If not click cancel.");
@@ -36,7 +37,7 @@ function generatePassword() {
       let upCaseList = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
       let lowCaseList = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
       let numList = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
-      let symList = ["~", "`", "!", "@", "#", "$", "%", "^", "&", "*"];
+      let symList = ["~", "`", "!", "@", "#", "$", "%", "^", "&", "*", "&"];
 
       let passwordOptions = []
 
